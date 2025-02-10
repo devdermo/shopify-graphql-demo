@@ -10,7 +10,7 @@
   "main": "dist/app.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/app.js -name glove",
+    "start": "node dist/app.js -name \"\"",
     "dev": "tsc --watch"
   },
   "repository": {
