@@ -1,6 +1,9 @@
 {
   "type": "module",
   "private": true,
+  "engines": {
+    "node": ">=23.1.0"
+  },
   "name": "shopify-graphql-demo",
   "version": "1.0.0",
   "description": "Demonstration of simple cli tool to make requests against a shopify store using their GraphQL API",
