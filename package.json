@@ -1,0 +1,39 @@
+{
+  "type": "module",
+  "private": true,
+  "name": "shopify-graphql-demo",
+  "version": "1.0.0",
+  "description": "Demonstration of simple cli tool to make requests against a shopify store using their GraphQL API",
+  "main": "dist/app.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js -name glove",
+    "dev": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devdermo/shopify-graphql-demo.git"
+  },
+  "keywords": [
+    "shopify",
+    "graphql",
+    "typescript",
+    "api"
+  ],
+  "author": "Diarmuid Murphy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devdermo/shopify-graphql-demo/issues"
+  },
+  "homepage": "https://github.com/devdermo/shopify-graphql-demo#readme",
+  "devDependencies": {
+    "@tsconfig/node23": "^23.0.0",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^7.3.1",
+    "@shopify/storefront-api-client": "^1.0.4",
+    "dotenv": "^16.4.7"
+  }
+}
